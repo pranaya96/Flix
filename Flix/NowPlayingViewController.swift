@@ -44,7 +44,19 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         let task = session.dataTask(with: request) { (data, response, error) in
             //This will run when the network request returns
             if let error = error{
-                print(error.localizedDescription)
+                let alertController = UIAlertController(title: "Cannot Get Movies", message: "The internet connection appears to be offline", preferredStyle: .alert)
+                
+                // create a cancel action
+                let cancelAction = UIAlertAction(title: "Try Again", style: .cancel) { (action) in
+                    // handle cancel response here. Doing nothing will dismiss the view.
+                    self.fetchMovies()
+                }
+                // add the cancel action to the alertController
+                alertController.addAction(cancelAction)
+                self.present(alertController, animated: true) {
+                    // optional code for what happens after the alert controller has finished presenting
+                }
+                //print(error.localizedDescription)
             }
             else if  let data = data{
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as![String:Any]
