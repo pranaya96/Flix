@@ -30,7 +30,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="150.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yi4-E3-uCf">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="New-Tumblr-Logo-Design-1" translatesAutoresizingMaskIntoConstraints="NO" id="Yi4-E3-uCf">
                                                     <rect key="frame" x="15" y="0.0" width="108" height="140"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.77183109671237926" green="1" blue="0.25371369733406346" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -79,4 +79,7 @@
             <point key="canvasLocation" x="-143.19999999999999" y="67.916041979010501"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="New-Tumblr-Logo-Design-1" width="1000" height="600"/>
+    </resources>
 </document>
