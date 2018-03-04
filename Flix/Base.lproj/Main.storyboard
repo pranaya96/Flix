@@ -71,7 +71,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="overviewLabel" destination="3Vg-zC-pPV" id="gST-27-t7T"/>
-                                            <outlet property="posterImageView" destination="Yi4-E3-uCf" id="AgI-wD-Hfs"/>
+                                            <outlet property="posterImageView" destination="Yi4-E3-uCf" id="Gao-TX-fuk"/>
                                             <outlet property="titleLabel" destination="poU-XU-4DB" id="ZLr-Gz-A4A"/>
                                             <segue destination="MOS-uP-8FV" kind="show" id="8bk-fN-iVh"/>
                                         </connections>
